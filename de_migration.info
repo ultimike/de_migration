@@ -1,0 +1,9 @@
+name = "DrupalEasy Migration"
+description = "Module to migrate some DrupalEasy content to Drupal 7"
+package = "DrupalEasy"
+core = 7.x
+
+dependencies[] = migrate_d2d
+
+files[] = de_migration.module
+files[] = de_migration_node.inc
