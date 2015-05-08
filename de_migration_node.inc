@@ -25,11 +25,6 @@ class DrupalEasyBlogMigration extends DrupalNode6Migration {
      * field_file_attachment:file_class: use user interface ('MigrateFileFid')
      * field_file_attachment:language: DNM
      * field_file_attachment:preserve_files: use user interface ('FALSE')
-     * //field_file_attachment:destination_dir: use user interface ('public://')
-     * //field_file_attachment:destination_file: DNM
-     * //field_file_attachment:file_replace: use user interface ('FILE_EXISTS_REUSE')
-     * //field_file_attachment:source_dir: use user inteface ('http://drupaleasy6.dev/sites/drupaleasy.com/files')
-     * //field_file_attachment:urlencode: DNM
      * field_file_attachment:description: use user interface
      * field_file_attachment:display: use user interface
      */
